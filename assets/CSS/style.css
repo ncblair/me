@@ -1,0 +1,84 @@
+body{
+	background-color: black;
+}
+
+#hello{
+	display:table;
+	font-family:sans-serif;
+	font-weight:900;
+	font-size:5em;
+
+	color:white;
+}
+a{
+	color:#FAAB44;
+	text-decoration:none;
+}
+
+.letters{
+	display:table;
+	margin-left:4em;
+	padding: .5em;
+	font-family:sans-serif;
+	color:white;
+}
+#nathanHead{
+	display:block;
+	position:fixed;
+	margin-left:36em;
+	bottom:0;
+	height:80%;
+	width:auto;
+}
+
+#glasses{
+	visibility:hidden;
+	position:absolute;
+	display:block;
+	top:0;
+	height:17%;
+	width:auto;
+	margin-left:42.5em;
+	transition:all 1s ease;
+}
+
+#glasses:target{
+	top:18em;
+	visibility:initial;
+}
+
+.conatiner{
+	position:relative;
+}
+
+.text_container{
+	margin:2em;
+	padding:3em;
+	padding-bottom:14em;
+	width: 35em;
+	left:0;
+	background-color:black;
+	border-radius:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
