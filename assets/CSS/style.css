@@ -9,7 +9,7 @@ body{
 	width:115%;
 	height:115%;
 	z-index:-1;
-	background-image: url("../img/nathanAtSantaCruzLookingBack.jpg");
+	background-image: url("../img/nathanAtSantaCruzLookingBack.JPG");
 	background-size:cover;
 	-webkit-filter: blur(5px) brightness(50%);
     -moz-filter: blur(5px) brightness(50%);
