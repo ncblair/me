@@ -1,24 +1,112 @@
 <!DOCTYPE html>
 <html>
-	<head><link link rel="stylesheet" type="text/css" href="assets/CSS/style.css" /></head>
+	<head>
+	    <link link rel="stylesheet" type="text/css" href="assets/CSS/style.css" />
+	    <link href='https://fonts.googleapis.com/css?family=Francois One' rel='stylesheet'>
+	    <link href='https://fonts.googleapis.com/css?family=Istok Web' rel='stylesheet'>
+	</head>
 	<body>
-		<div id = "background"></div>
-		<div class = "container">
-			<!--img id = "nathanHead" src = "assets/img/NathanWithBanana.png"-->
-			<!--img id = "glasses" src = "assets/img/cool_glasses.png"-->
-		</div>
-
-		<div class = "text_container">
-			<div style = "padding:1em;"></div>
-			<div id = "hello">> hello,</div>
-			<div></div>
-			<div id = "hello">> im <span style = "color: orange;"><a href = "#glasses"> nathan</a></span></div>
-			<div class = "letters" style = "padding:1.5em; margin-left:3em">take a look at my <a href = "assets/pdfs/NathanBlairUCBerkeleyResume copy.pdf" target = "_blank">resume</a> </div>
-			<div class = "letters"> i grew up in sherman oaks california</div>
-			<div class = "letters"> i love to ski</div>
-			<div class = "letters"> i study electrical engineering and computer science at uc berkeley</div>
-			<div></div>
-		</div>
-
+	    <div class = "allContainer">
+    	    <div class = "profileImageContainer">
+    	        <img class = "profileImage" src = "assets/img/nathanCloseUp.JPG">
+    	    </div>
+    	    <div class = "title">Hi, I'm Nathan</div>
+    	    <div class = "about">
+    	        i love to ski<br><br>
+    	        my favorite book is <i>The Lord of The Rings</i><br><br>
+    	        i study electrical engineering and computer science at UC Berkeley
+    	    </div>
+    	    <div class = "resume">
+    	        take a look at my <a href = "assets/pdfs/NathanBlairUCBerkeleyResume copy.pdf" target = "_blank">resume</a>
+    	    </div>
+    	    
+    	    
+    	    <div class = "title2">
+    	        What I've Built
+    	    </div>
+    	    <div class = "projects-container">
+        	    <div class = "project-container">
+        	        <a class = "project-link" href = "http://ncblair.github.io/AprilBlair" target = "_blank">
+        	            <img class = "project" src = "assets/img/AprilBlairThumb.png">
+        	            <div class = "project-title" style = "color:#4B9E65">
+        	                Website for Therapist April Blair
+        	            </div>
+        	            <div class = "project-description">
+        	                <ul>
+        	                    <li>Programmed using HTML, CSS, and Javascript.</li>
+        	                    <li>Images edited in GIMP</li>
+        	                    <li>Parralax effect and smooth scrolling with JQuery/Javascript</li>
+        	                    <li>Static map rendered with Google Maps API</li>
+        	                </ul>
+        	                
+        	            </div>
+        	            <div class = "project-darkener"></div>
+        	        </a>
+        	    </div>
+        	    <div class = "project-container">
+        	        <a class = "project-link" href = "http://calhat.com/get" target = "_blank">
+        	            <img class = "project" src = "assets/img/CalhatThumb.png">
+        	            <div class = "project-title" style = "color:#53A3D6">
+        	                Calhat: Ordering Hats For Delivery
+        	            </div>
+        	            <div class = "project-description">
+        	                <ul>
+        	                    <li>Programmed using HTML, CSS, Javascript, and PHP.</li>
+        	                    <li>Form input handled with Javascript Regex Statements</li>
+        	                    <li>PHP facilitates Form Submission</li>
+        	                </ul>
+        	                
+        	            </div>
+        	            <div class = "project-darkener"></div>
+        	        </a>
+        	    </div>
+    	    </div>
+    	    
+    	    
+    	    <div class = "title2">
+    	        Hobbies
+    	    </div>
+    	    <div class = "projects-container">
+        	    <div class = "project-container">
+        	        <a class = "project-link" href = "assets/img/Nathan's_mammoth_trail_map.jpg" target = "_blank">
+        	            <img class = "project" src = "assets/img/Nathan's_mammoth_trail_map.jpg">
+        	            <div class = "project-title" style = "color:#CE5A4C">
+        	                Mammoth Mountain Runs I've Skied
+        	            </div>
+        	            <div class = "project-description">
+        	                <ul>
+        	                    <li>My Goal is to Ski the entire mountain</li>
+        	                    <li>I've been skiing at mammoth since I was 5</li>
+        	                    <li>Map Includes all black and double black diamonds I have skied down</li>
+        	                    <li>Image edited in GIMP</li>
+        	                </ul>
+        	                
+        	            </div>
+        	            <div class = "project-darkener"></div>
+        	        </a>
+        	    </div>
+        	    <div class = "project-container">
+        	        <a class = "project-link" href = "https://www.youtube.com/watch?v=uJklVI7KdP8" target = "_blank">
+        	            <img class = "project" src = "assets/img/NathanPiano.png">
+        	            <div class = "project-title" style = "color:#F8D554">
+        	                I've Played Piano Since I was 6
+        	            </div>
+        	            <div class = "project-description">
+        	                <ul>
+        	                    <li>This is a video of me performing a piece I wrote when I was 8.</li>
+        	                    <li>I still practice, and I've gotten a lot better since 11 years ago :)</li>
+        	                    <li>Contact me if you want to jam!</li>
+        	                </ul>
+        	                
+        	            </div>
+        	            <div class = "project-darkener"></div>
+        	        </a>
+        	    </div>
+    	    </div>
+	    </div>
+	    <div class = "contact">If you would like to get in touch, email me at <b>nblair@berkeley.edu</b> or call me at <b>(818)-404-0613</b> (I try my best to respond right away)</div>
+	    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="assets/JS/script.js"></script>
 	</body>
 </html>

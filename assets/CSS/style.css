@@ -1,96 +1,165 @@
-body{
+*{padding:0; margin:0; font-family:"Istok Web";}
 
+body{
+    background-color:#FFFFFF;
 }
 
-#background{
-	position:fixed;
-	top:-10%;
-	left:-10%;
-	width:115%;
-	height:115%;
-	z-index:-1;
-	background-image: url("../img/nathanAtSantaCruzLookingBack.JPG");
+.background-image{
+    position:fixed;
+    
+    height:100%;
+    width:100%;
+    
+    z-index:-1;
+    background-color:#FFFFFF;
+    /*
+	background:url("../img/nathanAtSantaCruzLookingBack.JPG") no-repeat center center fixed;
 	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-backgrounbd-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	
 	-webkit-filter: blur(5px) brightness(50%);
     -moz-filter: blur(5px) brightness(50%);
     -o-filter: blur(5px) brightness(50%);
     -ms-filter: blur(5px) brightness(50%);
     filter: blur(5px) brightness(50%);
-
+    */
 }
-#hello{
-	display:table;
-	font-family:sans-serif;
-	font-weight:900;
-	font-size:5em;
-
-	color:white;
+.profileImage{
+    max-height:100%;
+    transform:translateX(-80px);
 }
+.profileImageContainer{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:0 auto;
+    margin-top:50px;
+    
+}
+
+.fixed-container{
+    position:fixed;
+    min-width:650px;
+}
+
+.title{
+    
+	font-family:"Francois One";
+	font-weight:bolder;
+	font-size:80px;
+
+	color:#FAAB44;
+    width:100%;
+    text-align:center;
+    margin-top:50px;
+}
+
 a{
 	color:#FAAB44;
 	text-decoration:none;
 }
 
-.letters{
-	display:table;
-	margin-left:4em;
-	padding: .5em;
-	font-family:sans-serif;
-	color:white;
-}
-#nathanHead{
-	display:block;
-	position:fixed;
-	margin-left:36em;
-	bottom:0;
-	height:80%;
-	width:auto;
+.resume{
+    display:inline-block;
+    width:45%;
+    padding-left:4%;
+    padding-top:50px;
+    padding-bottom:50px;
+	color:#888888;
+	vertical-align:top;
+	text-align:center;
 }
 
-#glasses{
-	visibility:hidden;
-	position:absolute;
-	display:block;
-	top:0;
-	height:17%;
-	width:auto;
-	margin-left:42.5em;
-	transition:all 1s ease;
+.about{
+    text-align:center;
+    display:inline-block;
+    padding-right:5%;
+    padding-top:50px;
+    padding-bottom:50px;
+    width:45%;
+	height:200px;
+	color:#888888;
 }
 
-#glasses:target{
-	top:18em;
-	visibility:initial;
+.allContainer{
+    padding-left:10%;
+    padding-right:10%;
 }
 
-.conatiner{
-	position:relative;
+.title2{
+	font-weight:bolder;
+	font-size:30px;
+	color:black;
+	text-align:center;
 }
 
-.text_container{
-	margin:2em;
-	padding:3em;
-	padding-bottom:14em;
-	width: 35em;
-	left:0;
-	border-radius:10%;
+.project-container{
+    display:inline-block;
+    vertical-align:middle;
+    width:300px;
+    height:200px;
+    margin:30px;
+    margin-top:50px;
+}
+.projects-container{
+    text-align:center;
+    margin-bottom:50px;
 }
 
+.project{
+    
+    position:relative;
+    
+    width:100%;
+    height:200px;
+}
 
+.project-title{
+    position:relative;
+    display:block;
+    background-color:white;
+    width:100%;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    font-family:sans-serif;
+    z-index:3;
+    bottom:56px;
+    opacity:.9;
+    font-size:18px;
+}
 
+.project-description{
+    display:block;
+    color:white;
+    text-align:center;
+    bottom:200px;
+    position:relative;
+    width:75%;
+    height:50px;
+    opacity:0;
+    margin-left:50px;
+    font-size:14px;
+    z-index:2;
+}
+.project-darkener{
+    position:relative;
+    height:200px;
+    width:100%;
+    background-color:#222222;
+    opacity:0;
+    bottom:306px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.contact{
+    text-align:center;
+    color:#888888;
+    margin-top:200px;
+}
 
 
 
